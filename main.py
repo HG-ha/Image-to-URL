@@ -13,7 +13,7 @@ class putImg:
         self.help = '''
         python main.py "c:/1.jpg"    : Upload file c:/1.jpg
         '''
-        self.picUrl = "https://api.wer.plus/api/58map"
+        self.picUrl = "https://api.wer.plus/api/wbmap"
 
     def _getCliValue(self) -> bool:
         '''
